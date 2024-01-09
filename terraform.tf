@@ -23,8 +23,8 @@ terraform {
 
 provider "aws" {
   region     = "us-east-2"
-  access_key = "AKIASVTMDHOI76Z7SB6S"
-  secret_key = "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"
+  access_key = ""
+  secret_key = ""
 }
 
 resource "aws_instance" "myec2" {
